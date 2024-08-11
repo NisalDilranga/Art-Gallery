@@ -1,0 +1,13 @@
+.imgs-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-l);
+}
+.imgs-wrapper a img{
+  width: 250px;
+}
+@media screen and (max-width: 600px) {
+  .imgs-wrapper a img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+.footer{
+  background-color: var(--extra-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-xxl);
+  border-radius: 16px;
+  margin-bottom: var(--sp-xxl);
+}
+.footer h1{
+  padding: 0;
+  margin: 0;
+}
+.footer-social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-xxl);
+}
+.footer-social-links a{
+  color: white;
+}
